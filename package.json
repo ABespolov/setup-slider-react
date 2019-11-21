@@ -1,0 +1,49 @@
+{
+  "name": "setup-slider-react",
+  "version": "1.0.2",
+  "description": "Simple setup slider.",
+  "main": "./lib/",
+  "peerDependencies": {
+    "react": "^16.6.0",
+    "prop-types": "^15.6.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "slider"
+  ],
+  "author": "Artsiom Bespolau",
+  "license": "MIT",
+  "homepage": "https://github.com/ABespolov/setup-slider-react/tree/master#setup-slider-react",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ABespolov/setup-slider-react"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "css-loader": "^3.2.0",
+    "react": "^16.12.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  }
+}

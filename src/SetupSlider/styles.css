@@ -1,0 +1,52 @@
+#setupSlider {
+  --slider-height: 10px;
+  --slider-width: 100%;
+}
+
+#setupSlider .container {
+  --transform: calc(var(--slider-height) / -2);
+  --slider-bar-height: calc(var(--slider-height) / 2);
+  height: var(--slider-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+#setupSlider .slider {
+  width: 100%;
+  max-width: var(--slider-width);
+  height: var(--slider-bar-height);
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 8px;
+}
+
+#setupSlider .pin {
+  height: var(--slider-height);
+  width: var(--slider-height);
+  border-radius: 50%;
+  margin-top: calc(var(--slider-bar-height) / -2);
+  transform: translateX(var(--transform));
+}
+
+#setupSlider .sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  text-align: center;
+}
+
+#setupSlider .sliderLabel {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+#setupSlider .sliderLabel:nth-child(1) {
+  text-align: left;
+}
+
+#setupSlider .sliderLabel:nth-child(3) {
+  text-align: right;
+}
